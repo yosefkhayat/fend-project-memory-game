@@ -1,20 +1,21 @@
 # Memory Game Project
 
-## Table of Contents
+## About the game
+the game create different shapes in each play and mixed them in a board. the user will click on two cards and and the cards will display. the user has to match all the cards to win the game.
+__Star Rating__
+* less than 20 moves - 3 stars
+* less than 30 moves - 2 stars
+* more than 30 moves - 1 star
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
-## Instructions
-
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
-
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Installation
+To have the game on your website, copy files to public_html directory on your server\personal laptop and start playing\contributing.
 
 ## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+i am planning on adding option to choose the shapes of the cards.
+__the plan__
+1.add element to the site
+1.start the site with this element only
+2.add button to move to the game
+3.add functionality
+2.add data structure to hold the available shapes
+3.finishing the style 

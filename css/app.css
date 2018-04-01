@@ -86,24 +86,89 @@ h1 {
  */
 
 .score-panel {
-    text-align: left;
+    text-align: center;
     width: 345px;
     margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.score-panel .stars {
+.stars {
     margin: 0;
     padding: 0;
     display: inline-block;
     margin: 0 5px 0 0;
+    order:-1;
+    min-width: 70px;
 }
 
-.score-panel .stars li {
+.stars li {
     list-style: none;
     display: inline-block;
 }
 
 .score-panel .restart {
-    float: right;
+    order:2;
     cursor: pointer;
+    min-width: 70px;
+}
+.time{
+    order: 1;
+    min-width: 100px;
+}
+.movesCount{
+    order: 0;
+    min-width: 100px;
+}
+.gameScore {
+    padding: 20px;
+    padding-top: 110px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 550px;
+    min-height: 400px;
+    border-radius: 50px;
+    flex-direction: column;
+}
+.playAgain{
+    margin-top:20px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 5px 8px 10px 0 rgba(120, 140, 140, 0.5);
+}
+
+@media screen and (max-width: 900px) {
+    .deck {
+        width: 550px;
+        min-height: auto;
+        margin: 0 25px;
+    }
+
+    .deck .card {
+        height: 100px;
+        width: 100px;
+        margin: 10px 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .deck {
+        width: 350px;
+        min-height: auto;
+    }
+
+    .score-panel {
+        width: 300px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .deck .card {
+        height: 60px;
+        width: 60px;
+    }
 }
