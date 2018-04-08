@@ -1,5 +1,7 @@
 # Memory Game Project
 
+link to the live game: https://yosefkhayat.github.io/fend-project-memory-game/
+
 ## About the game
 the game create different shapes in each play and mixed them in a board. the user will click on two cards and and the cards will display. the user has to match all the cards to win the game.
 __Star Rating__
